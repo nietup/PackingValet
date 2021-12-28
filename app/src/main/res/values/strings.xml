@@ -5,4 +5,6 @@
     <string name="trip_creation_placeholder">TRIP CREATION</string>
     <string name="packing_action_placeholder">PACKING ACTION</string>
     <string name="create_trip">Create Trip</string>
+    <string name="trip_name_hint">Trip Name</string>
+    <string name="night_count_hint">Nights</string>
 </resources>
