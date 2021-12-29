@@ -37,7 +37,7 @@ class TripCreationFragment : Fragment() {
                                    R.layout.support_simple_spinner_dropdown_item,
                                    items)
 
-        binding?.itemList?.adapter = adapter
+        binding?.storedItemList?.adapter = adapter
     }
 
     private fun getItems() = listOf("Pants",
