@@ -8,4 +8,5 @@
     <string name="trip_name_hint">Trip Name</string>
     <string name="night_count_hint">Nights</string>
     <string name="put_on_table">Put items on the table</string>
+    <string name="add_item">Add new item</string>
 </resources>
