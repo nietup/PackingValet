@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/jnie/AndroidStudioProjects/PackingValet/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
-        <entry key="..\:/Users/jnie/AndroidStudioProjects/PackingValet/app/src/main/res/layout/fragment_packing_action.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/jnie/AndroidStudioProjects/PackingValet/app/src/main/res/layout/fragment_packing_action.xml" value="0.33" />
+        <entry key="..\:/Users/jnie/AndroidStudioProjects/PackingValet/app/src/main/res/layout/fragment_trip_creation.xml" value="0.33" />
       </map>
     </option>
   </component>
