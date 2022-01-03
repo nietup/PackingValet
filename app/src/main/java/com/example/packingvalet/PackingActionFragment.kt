@@ -27,7 +27,7 @@ class PackingActionFragment : Fragment() {
 
         val items = getItems()
         val adapter = ArrayAdapter(requireContext(),
-                                   R.layout.support_simple_spinner_dropdown_item,
+                                   android.R.layout.simple_list_item_activated_1,
                                    items)
 
         binding?.selectedItemList?.adapter = adapter
