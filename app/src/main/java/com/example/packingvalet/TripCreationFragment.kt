@@ -8,7 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ListView
 import android.widget.Toast
+import androidx.core.view.get
 import androidx.navigation.findNavController
 import com.example.packingvalet.databinding.FragmentTripCreationBinding
 
@@ -37,10 +39,12 @@ class TripCreationFragment : Fragment() {
         }
 
         val adapter = ArrayAdapter(requireContext(),
-                                   R.layout.support_simple_spinner_dropdown_item,
+                                   android.R.layout.simple_list_item_multiple_choice,
                                    items)
 
-        binding?.storedItemList?.adapter = adapter
+        val itemList = binding!!.storedItemList
+
+        itemList.adapter = adapter
 
         binding?.newItemEditText?.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
