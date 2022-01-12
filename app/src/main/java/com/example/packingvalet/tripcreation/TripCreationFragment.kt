@@ -1,4 +1,4 @@
-package com.example.packingvalet
+package com.example.packingvalet.tripcreation
 
 import android.os.Bundle
 import android.text.Editable
@@ -8,9 +8,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.Toast
-import androidx.core.view.get
 import androidx.navigation.findNavController
 import com.example.packingvalet.databinding.FragmentTripCreationBinding
 

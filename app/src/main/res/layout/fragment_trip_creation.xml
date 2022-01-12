@@ -5,7 +5,7 @@
     android:id="@+id/itemSelectionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TripCreationFragment">
+    tools:context=".tripcreation.TripCreationFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
